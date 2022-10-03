@@ -85,7 +85,7 @@ function reservarHabitacion() {
         apellido = prompt ("Ingrese su apellido");
         email = prompt ("Ingrese su e-mail");
         
-        alert("Nombre: " + nombre + "\nApellido: " + apellido + "\nReserva: " + fechaDiaIngreso + "/" + fechaMesIngreso + " hasta " + fechaDiaSalida + "/" + fechaMesSalida + "\nHabitación para: " + tiposDeHabitaciones + "\nPrecio: " + precio);
+        alert("Nombre: " + nombre + "\nApellido: " + apellido + "\nE-Mail: " + email + "\nReserva: " + fechaDiaIngreso + "/" + fechaMesIngreso + " hasta " + fechaDiaSalida + "/" + fechaMesSalida + "\nHabitación para: " + tiposDeHabitaciones + "\nPrecio: " + precio);
     }
 
 }
